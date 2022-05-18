@@ -51,6 +51,9 @@ footer{
         line-height: 19px;
         color: #FFFFFF;
         text-decoration: none;
+        &:hover{
+            color: #000;
+        }
     }
     &__bottom{
         display: flex;

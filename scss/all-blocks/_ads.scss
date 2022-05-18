@@ -40,5 +40,9 @@
         background: #F78B3B;
         border-radius: 10px;
         margin-right: 51px;
+        &:active{
+            background: #000;
+            color: #FFFFFF;
+        }
     }
 }
