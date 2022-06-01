@@ -1,0 +1,115 @@
+.contact{
+    width: 695px;
+    &__box{
+        display: flex;
+    }
+    &__title{
+        margin-top: 60px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+    }
+    &__bio{
+        display: flex;
+        align-items: center;
+    }
+    &__name{
+        margin-bottom: 10px;
+        width: 343px;
+        height: 55px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-left: 20px;
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+        opacity: 0.5;
+    }
+    &__name:nth-child(2){
+        margin-left: 10px;
+    }
+    &__email{
+        margin-bottom: 10px;
+        display: block;
+        width: 100%;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-left: 20px;
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+        opacity: 0.5;
+    }
+    &__offer{
+        padding-top: 18px;
+        padding-left: 20px;
+        display: block;
+        width: 100%;
+        resize: none;
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+        opacity: 0.5;
+    }
+    &__btn{
+        margin-top: 20px;
+        padding: 17px 30px;
+        float: right;
+        background: #7297EF;
+        border-radius: 10px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        border: none;
+    }
+
+    &__info__list{
+        width: 494px;
+        margin-top: 0;
+        margin-left: 10px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        list-style: none;
+        background: #F6F6F6;
+        border-radius: 10px;
+    }
+    &__info__list__item{
+        margin-bottom: 40px;
+        position: relative;
+        &::before{
+            position: absolute;
+            content: "";
+            background-image: url("../../Images-compressed/contact-after.svg");
+            background-repeat: no-repeat;
+            width: 404px;
+            height: 2px;
+            top: 65px;
+            left: 0;
+        }
+    }
+    &__info__heading{
+        margin-bottom: 7px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+    }
+    &__info__link{
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+    }
+}
