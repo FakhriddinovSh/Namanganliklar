@@ -95,45 +95,48 @@
     <!-- Header ended -->
 
     <!-- Main started -->
-    <main class="container">
-        <h2 class="contact__title ">Напишите нам</h2>
-        <div class="contact__box">
-            <div class="contact">
-                <form class="contact__form" action="https://echo.htmlacademy.ru/courses" method="get">
-                    <div class="contact__bio">
-                        <input class="contact__name" type="text" placeholder="Имя">
-                        <input class="contact__name" type="number" placeholder="Номер телефона">
-                    </div>
-                    <input class="contact__email" type="email" placeholder="Электронная почта">
-                    <textarea class="contact__offer" name="offer" id="textarea" cols="30" rows="10"
-                        placeholder="Текст"></textarea>
-                    <button class="contact__btn" type="submit">Отправить</button>
-                </form>
-            </div>
+    <main>
+        <div class="container">
+            <h2 class="contact__title ">Напишите нам</h2>
+            <div class="contact__box">
+                <div class="contact">
+                    <form class="contact__form" action="https://echo.htmlacademy.ru/courses" method="get">
+                        <div class="contact__bio">
+                            <input class="contact__name" aria-label="Имя" name="name" type="text" placeholder="Имя">
+                            <input class="contact__name" aria-label="Номер телефона" name="surname" type="tel"
+                                placeholder="Номер телефона">
+                        </div>
+                        <input class="contact__email" aria-label="Электронная почта" name="mail" type="email"
+                            placeholder="Электронная почта">
+                        <textarea class="contact__offer" name="offer" id="textarea" cols="30" rows="10"
+                            placeholder="Текст"></textarea>
+                        <button class="contact__btn" type="submit">Отправить</button>
+                    </form>
+                </div>
 
-            <div class="contact__info">
-                <ul class="contact__info__list">
-                    <li class="contact__info__list__item">
-                        <h3 class="contact__info__heading">Электронная почта</h3>
-                        <a class="contact__info__link"
-                            href="mailto:info@namanganliklar24.uz">info@namanganliklar24.uz</a>
-                    </li>
+                <div class="contact__info">
+                    <ul class="contact__info__list">
+                        <li class="contact__info__list__item">
+                            <h3 class="contact__info__heading">Электронная почта</h3>
+                            <a class="contact__info__link"
+                                href="mailto:info@namanganliklar24.uz">info@namanganliklar24.uz</a>
+                        </li>
 
-                    <li class="contact__info__list__item">
-                        <h3 class="contact__info__heading">Номер телефона</h3>
-                        <a class="contact__info__link" href="tel:+998885225476">+998 88 522-54-76</a>
-                    </li>
+                        <li class="contact__info__list__item">
+                            <h3 class="contact__info__heading">Номер телефона</h3>
+                            <a class="contact__info__link" href="tel:+998885225476">+998 88 522-54-76</a>
+                        </li>
 
-                    <li class="contact__info__list__item">
-                        <h3 class="contact__info__heading">Адрес</h3>
-                        <address>
-                            <a class="contact__info__link" href="https://goo.gl/maps/gjctTbXC7nTsZiCq5"
-                                target="blank">Ташкент, площадь
-                                Мустакиллик, 6 </a>
-                        </address>
-                    </li>
-                </ul>
-
+                        <li class="contact__info__list__item">
+                            <h3 class="contact__info__heading">Адрес</h3>
+                            <address>
+                                <a class="contact__info__link" href="https://goo.gl/maps/gjctTbXC7nTsZiCq5"
+                                    target="blank">Ташкент, площадь
+                                    Мустакиллик, 6 </a>
+                            </address>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </main>
